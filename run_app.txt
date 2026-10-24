@@ -1,0 +1,5 @@
+@echo off
+cd /d "E:\Project\Movie Recommendation System"
+call conda activate base
+streamlit run app.py
+pause
